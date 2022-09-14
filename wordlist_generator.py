@@ -9,7 +9,7 @@ def allSubsets(ss):
     return chain(*map(lambda x: combinations(ss, x), range(0, len(ss)+1)))
 
 def listOfImportantWords():
-    print("Enter all other keywords: ")
+    print("Enter keyword: ")
     while True:
         inp = input()
         if inp == '':
